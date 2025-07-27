@@ -388,22 +388,18 @@ body {
     color: var(--accent-color);
 }
 
-.about-image {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr; /* Divisão igual para mais espaço */
-    gap: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .about-image {
+    width: 100%;
     display: flex;
-    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    justify-content: flex-end; /* Isso alinha a bússola à direita */
     align-items: center;
 }
 
