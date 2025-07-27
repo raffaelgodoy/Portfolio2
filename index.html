@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Geoprocessamento - Rafael Godoy</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="simple-lightbox.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-map-marked-alt"></i>
+                <span>Rafael Godoy</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#inicio" class="nav-link">Início</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Geoprocessamento e Análise Espacial para Soluções Inovadoras</h1>
+            <p class="hero-subtitle">Engenheiro Ambiental com expertise em SIG, sensoriamento remoto e automação de dados geoespaciais.</p>
+            <a href="#portfolio" class="cta-button">Ver Portfólio</a>
+        </div>
+        <div class="hero-scroll">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="territorial">Gestão Territorial</button>
+                <button class="filter-btn" data-filter="ambiental">Ambiental</button>
+                <button class="filter-btn" data-filter="geotecnologias">Geotecnologias</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="geotecnologias">
+                    <div class="portfolio-image">
+                        <a href="assets/images/mapa-vegetal-gee.jpg" data-lightbox="portfolio"><img src="assets/images/mapa-vegetal-gee.jpg" alt="Análise Multitemporal da Cobertura Vegetal"></a>
+                        <div class="portfolio-overlay">
+                            <h3>Análise Multitemporal da Cobertura Vegetal</h3>
+                            <p>Utilização de Google Earth Engine e imagens Sentinel-2 para análise da dinâmica da cobertura vegetal.</p>
+                            <div class="portfolio-tools">
+                                <span>Google Earth Engine</span>
+                                <span>Sentinel-2</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="territorial">
+                    <div class="portfolio-image">
+                        <a href="assets/images/mapa-imoveis-rurais.jpg" data-lightbox="portfolio"><img src="assets/images/mapa-imoveis-rurais.jpg" alt="Delimitação e Georreferenciamento de Imóveis Rurais"></a>
+                        <div class="portfolio-overlay">
+                            <h3>Delimitação e Georreferenciamento de Imóveis Rurais</h3>
+                            <p>Aplicação de técnicas de georreferenciamento e SIG para delimitação precisa de imóveis rurais, atendendo normativas do INCRA.</p>
+                            <div class="portfolio-tools">
+                                <span>QGIS</span>
+                                <span>ArcGIS</span>
+                                <span>Georreferenciamento</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="territorial">
+                    <div class="portfolio-image">
+                        <a href="assets/images/mapa-quilombolas.jpg" data-lightbox="portfolio"><img src="assets/images/mapa-quilombolas.jpg" alt="Delimitação Fundiária Comunidades Quilombolas"></a>
+                        <div class="portfolio-overlay">
+                            <h3>Delimitação Fundiária Comunidades Quilombolas</h3>
+                            <p>Atuação em projetos de delimitação fundiária e regularização territorial, com foco em comunidades quilombolas.</p>
+                            <div class="portfolio-tools">
+                                <span>QGIS</span>
+                                <span>ArcGIS</span>
+                                <span>RTID</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ambiental">
+                    <div class="portfolio-image">
+                        <a href="assets/images/mapa-hidrologia.jpg" data-lightbox="portfolio"><img src="assets/images/mapa-hidrologia.jpg" alt="Análises Hidrológicas e Espaciais"></a>
+                        <div class="portfolio-overlay">
+                            <h3>Análises Hidrológicas e Espaciais (ONS/Itaipu)</h3>
+                            <p>Realização de análises hidrológicas e espaciais utilizando SIG, sensoriamento remoto e Python.</p>
+                            <div class="portfolio-tools">
+                                <span>QGIS</span>
+                                <span>Python</span>
+                                <span>Sensoriamento Remoto</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="geotecnologias">
+                    <div class="portfolio-image">
+                        <a href="assets/images/mapa-vetorizacao.jpg" data-lightbox="portfolio"><img src="assets/images/mapa-vetorizacao.jpg" alt="Vetorização e Retificação Cartográfica"></a>
+                        <div class="portfolio-overlay">
+                            <h3>Vetorização e Retificação Cartográfica</h3>
+                            <p>Coordenação de equipe em atividades de vetorização e retificação cartográfica de imóveis rurais, assegurando acurácia e conformidade.</p>
+                            <div class="portfolio-tools">
+                                <span>QGIS</span>
+                                <span>ArcGIS</span>
+                                <span>Vetorização</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="ambiental">
+                    <div class="portfolio-image">
+                        <a href="assets/images/mapa-licenciamento.jpg" data-lightbox="portfolio"><img src="assets/images/mapa-licenciamento.jpg" alt="Mapas para Licenciamento Ambiental"></a>
+                        <div class="portfolio-overlay">
+                            <h3>Mapas Temáticos para Licenciamento Ambiental</h3>
+                            <p>Elaboração de mapas temáticos e interpretativos para apoio a projetos de remediação de áreas contaminadas e licenciamento ambiental.</p>
+                            <div class="portfolio-tools">
+                                <span>ArcGIS</span>
+                                <span>Global Mapper</span>
+                                <span>Relatórios Técnicos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p>Sou Rafael Dias F. Godoy, Engenheiro Ambiental apaixonado por transformar dados geográficos em soluções inovadoras. Com sólida experiência em geotecnologias, sou especializado em análise espacial e sensoriamento remoto aplicados a projetos ambientais e de gestão territorial. [cite: 80]</p>
+                    <p>Mestre em Ciências Geodésicas (em andamento na UFPR) [cite: 81], possuo proficiência comprovada em QGIS, ArcGIS, Google Earth Engine e Python (Pandas, GeoPandas) para automação de tarefas e análise de dados geoespaciais. [cite: 81] Minha atuação abrange delimitação fundiária, regularização territorial, vetorização e retificação de mapas, além de suporte técnico em campo com GPS e drones. [cite: 82] Experiência em projetos voltados a comunidades quilombolas, incluindo produção de mapas temáticos e análise de uso do solo. [cite: 83]</p>
+                    <div class="skills">
+                        <h3>Habilidades e Ferramentas</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fas fa-map"></i>
+                                <span>QGIS (Avançado)</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-globe"></i>
+                                <span>ArcGIS (Avançado)</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-satellite-dish"></i>
+                                <span>Sensoriamento Remoto</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-code"></i>
+                                <span>Python (Pandas, GeoPandas)</span>
+                            </div>
+                             <div class="skill-item">
+                                <i class="fas fa-cloud"></i>
+                                <span>Google Earth Engine</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-compass"></i>
+                                <span>GPS e Drones</span>
+                            </div>
+                             <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>PostgreSQL/PostGIS</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-drafting-compass"></i>
+                                <span>CAD (AutoCAD)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="compass-decoration"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>rafa.dias.rd@gmail.com</span> 
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+55 (11) 97852-5635</span> 
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Curitiba - PR | São Paulo - SP</span> 
+                    </div>
+                    <div class="social-links">
+                        <a href="https://linkedin.com/in/raffaelgodoy205/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                        <a href="https://github.com/raffaelgodoy" target="_blank"><i class="fab fa-github"></i></a> 
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="mensagem" name="mensagem" placeholder="Sua Mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Portfólio de Geoprocessamento. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="simple-lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
