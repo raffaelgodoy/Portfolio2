@@ -449,13 +449,13 @@ body {
 }
 
 .contact-info {
-    display: flex;
+    display: center;
     flex-direction: column;
     gap: 30px;
 }
 
 .contact-item {
-    display: flex;
+    display: center;
     align-items: center;
     gap: 15px;
     font-size: 1.1rem;
