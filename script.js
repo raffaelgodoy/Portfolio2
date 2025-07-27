@@ -38,29 +38,30 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
     
-    // Filtros do portfólio
-    const filterButtons = document.querySelectorAll(".filter-btn");
-    const portfolioItems = document.querySelectorAll(".portfolio-item");
+// Filtros do portfólio
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
     
     filterButtons.forEach(button => {
-        button.addEventListener("click", function() {
+        button.addEventListener('click', function() {
             // Remove classe active de todos os botões
-            filterButtons.forEach(btn => btn.classList.remove("active"));
+            filterButtons.forEach(btn => btn.classList.remove('active'));
             // Adiciona classe active ao botão clicado
-            this.classList.add("active");
+            this.classList.add('active');
             
-            const filterValue = this.getAttribute("data-filter");
+            const filterValue = this.getAttribute('data-filter');
             
             portfolioItems.forEach(item => {
-                if (filterValue === "all" || item.getAttribute("data-category") === filterValue) {
-                    item.style.display = "block";
-                    item.style.animation = "fadeInUp 0.5s ease forwards";
+                if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                    item.style.display = 'block';
+                    item.style.animation = 'fadeInUp 0.5s ease forwards';
                 } else {
-                    item.style.display = "none";
+                    item.style.display = 'none';
                 }
             });
         });
     });
+
     
     // Animação de scroll para elementos
     const observerOptions = {
