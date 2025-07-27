@@ -285,51 +285,6 @@ body {
     transform: scale(1.1);
 }
 
-.portfolio-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, rgba(26, 54, 93, 0.9) 0%, rgba(44, 82, 130, 0.9) 100%);
-    color: var(--white);
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.portfolio-item:hover .portfolio-overlay {
-    opacity: 1;
-}
-
-.portfolio-overlay h3 {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: var(--accent-color);
-}
-
-.portfolio-overlay p {
-    margin-bottom: 1.5rem;
-    line-height: 1.6;
-}
-
-.portfolio-tools {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.portfolio-tools span {
-    background: rgba(255, 255, 255, 0.2);
-    padding: 5px 12px;
-    border-radius: 15px;
-    font-size: 0.9rem;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
 
 /* About Section */
 .about {
