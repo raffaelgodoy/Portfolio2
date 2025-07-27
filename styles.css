@@ -394,6 +394,19 @@ body {
     align-items: center;
 }
 
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Divisão igual para mais espaço */
+    gap: 80px;
+    align-items: center;
+}
+
+.about-image {
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    align-items: center;
+}
+
 .compass-decoration {
     width: 300px;
     height: 300px;
@@ -401,6 +414,9 @@ body {
     border-radius: 50%;
     position: relative;
     animation: rotate 20s linear infinite;
+    margin-left: auto; /* Garante que vá para a direita */
+    background: linear-gradient(45deg, rgba(74, 124, 89, 0.1), rgba(30, 96, 145, 0.1));
+    box-shadow: var(--shadow-lg);
 }
 
 .compass-decoration::before {
@@ -423,7 +439,6 @@ body {
     transform: translate(-50%, -50%);
     font-size: 4rem;
 }
-
 /* Contact Section */
 .contact {
     padding: 100px 0;
