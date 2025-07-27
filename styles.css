@@ -285,6 +285,32 @@ body {
     transform: scale(1.1);
 }
 
+/* Portfolio section */
+#portfolio {
+    background: var(--soft-gray);
+    padding: 3rem 2rem;
+    border-radius: 10px;
+}
+
+.portfolio-categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.category {
+    background: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.category h3 {
+    color: var(--moss-green);
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
 
 /* About Section */
 .about {
